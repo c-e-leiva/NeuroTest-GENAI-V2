@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.7.0
+plotly==6.1.2
+python-dotenv==1.1.0
+requests==2.32.3
+streamlit==1.45.1
+openai==1.93.0
+reportlab==4.1.0
+gspread==6.2.1
+google-auth==2.40.0
+google-auth-oauthlib==1.2.0
+requests-oauthlib==2.0.0
