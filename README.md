@@ -8,6 +8,10 @@
 
 ---
 
+### 🎯 **Probá NeuroTest en vivo:**  
+[![Probar NeuroTest en Streamlit](https://img.shields.io/badge/Probar_NeuroTest-Streamlit_App-%23FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://neurotest-genai-v2.streamlit.app)
+
+---
 ## ✨ ¿Qué es NeuroTest-GENAI-V2?
 
 **NeuroTest-GENAI-V2** es una aplicación interactiva desarrollada con Python y Streamlit que permite realizar un test cognitivo rápido y accesible, con resultados interpretados y redactados por inteligencia artificial generativa.
