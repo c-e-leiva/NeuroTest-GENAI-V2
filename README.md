@@ -11,6 +11,12 @@
 ### 🎯 **Probá NeuroTest en vivo:**  
 [![Probar NeuroTest en Streamlit](https://img.shields.io/badge/Probar_NeuroTest-Streamlit_App-%23FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://neurotest-genai-v2.streamlit.app)
 
+### 📽️ Demo en video  
+[![Ver demo en YouTube](https://img.shields.io/badge/🎬%20Ver%20demo%20en%20YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Za54DIgmhME)
+
+### 📄 Informe generado de ejemplo  
+📄 [Ver ejemplo de informe generado (PDF)](reportes/reporte_demo_neurotest.pdf)
+
 ---
 ## ✨ ¿Qué es NeuroTest-GENAI-V2?
 
@@ -127,25 +133,31 @@ streamlit run app.py
 ## 📁 Estructura del proyecto
 
 ```
+
 NeuroTest-GENAI-V2
-├── app.py                          # Lógica principal de la app
+├── app.py                          # Lógica principal de la app (Streamlit)
 ├── access/
-│   └── login.py                   # Módulo de autenticación
+│   └── login.py                    # Módulo de autenticación por contraseña
 ├── utils/
-│   ├── test_data.py              # Preguntas y opciones del test
-│   ├── visualizacion.py          # Radar + barras con colores
-│   ├── interaccion.py            # Evaluación de respuestas
-│   ├── sheets.py                 # Integración con Google Sheets
-│   ├── report_generator_gpt.py   # Informe redactado con GPT-4
-│   └── export_pdf_streamlit.py   # Generador de PDF en memoria
+│   ├── test_data.py                # Preguntas y opciones del test cognitivo
+│   ├── visualizacion.py            # Radar + barras con colores por riesgo
+│   ├── interaccion.py              # Evaluación de respuestas y clasificación
+│   ├── sheets.py                   # Guardado de resultados en Google Sheets
+│   ├── report_generator_gpt.py     # Informe personalizado generado con GPT-4
+│   └── export_pdf_streamlit.py     # Generación de informe en PDF (en memoria)
 ├── data/
-│   └── generador.py              # Dataset base (entrenamiento)
+│   └── generador.py                # Dataset base (entrenamiento del modelo)
 ├── model/
-│   └── classifier.py             # Modelo Random Forest
+│   └── classifier.py               # Clasificación de riesgo con Random Forest
 ├── .streamlit/
-│   └── secrets.toml              # Credenciales privadas
-├── requirements.txt
-└── README.md
+│   └── secrets.toml                # Claves/API (no subir al repo)
+├── requirements.txt                # Dependencias del proyecto
+│
+├── reportes/
+│   └── reporte_demo_neurotest.pdf  # Informe de ejemplo generado
+│
+└── README.md                       # Documentación principal del proyecto
+
 ```
 
 ---
